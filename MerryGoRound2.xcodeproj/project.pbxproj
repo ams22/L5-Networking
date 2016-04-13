@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8542B5F31CAEF9550061DD55 /* MGRListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRListViewController.h; sourceTree = "<group>"; };
+		8542B5F41CAEF9550061DD55 /* MGRListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRListViewController.m; sourceTree = "<group>"; };
 		8542B5F61CAEF98C0061DD55 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = SOURCE_ROOT; };
 		85D8F91F1CA2F93B009BE2D8 /* MerryGoRound2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerryGoRound2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D8F9231CA2F93B009BE2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				8542B5F61CAEF98C0061DD55 /* DropboxSDK.framework */,
+				8542B5F31CAEF9550061DD55 /* MGRListViewController.h */,
+				8542B5F41CAEF9550061DD55 /* MGRListViewController.m */,
 				85D8F9251CA2F93B009BE2D8 /* AppDelegate.h */,
 				85D8F9261CA2F93B009BE2D8 /* AppDelegate.m */,
 				85D8F9281CA2F93B009BE2D8 /* ViewController.h */,
@@ -278,6 +282,7 @@
 				85D8F92A1CA2F93B009BE2D8 /* ViewController.m in Sources */,
 				85D8F9271CA2F93B009BE2D8 /* AppDelegate.m in Sources */,
 				85D8F9241CA2F93B009BE2D8 /* main.m in Sources */,
+				8542B5F51CAEF9550061DD55 /* MGRListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
