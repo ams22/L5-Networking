@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8542B5F51CAEF9550061DD55 /* MGRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542B5F41CAEF9550061DD55 /* MGRListViewController.m */; };
+		8542B5F71CAEF98C0061DD55 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8542B5F61CAEF98C0061DD55 /* DropboxSDK.framework */; };
 		85D8F9241CA2F93B009BE2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F9231CA2F93B009BE2D8 /* main.m */; };
 		85D8F9271CA2F93B009BE2D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F9261CA2F93B009BE2D8 /* AppDelegate.m */; };
 		85D8F92A1CA2F93B009BE2D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F9291CA2F93B009BE2D8 /* ViewController.m */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8542B5F61CAEF98C0061DD55 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = SOURCE_ROOT; };
 		85D8F91F1CA2F93B009BE2D8 /* MerryGoRound2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerryGoRound2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D8F9231CA2F93B009BE2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85D8F9251CA2F93B009BE2D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8542B5F71CAEF98C0061DD55 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +105,7 @@
 		85D8F9211CA2F93B009BE2D8 /* MerryGoRound2 */ = {
 			isa = PBXGroup;
 			children = (
+				8542B5F61CAEF98C0061DD55 /* DropboxSDK.framework */,
 				85D8F9251CA2F93B009BE2D8 /* AppDelegate.h */,
 				85D8F9261CA2F93B009BE2D8 /* AppDelegate.m */,
 				85D8F9281CA2F93B009BE2D8 /* ViewController.h */,
@@ -413,6 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MerryGoRound2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pp.kolia.MerryGoRound2;
@@ -424,6 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MerryGoRound2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pp.kolia.MerryGoRound2;
@@ -498,6 +511,7 @@
 				85D8F94E1CA2F93B009BE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85D8F94F1CA2F93B009BE2D8 /* Build configuration list for PBXNativeTarget "MerryGoRound2Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +520,7 @@
 				85D8F9511CA2F93B009BE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85D8F9521CA2F93B009BE2D8 /* Build configuration list for PBXNativeTarget "MerryGoRound2UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +529,7 @@
 				85D8F9541CA2F93B009BE2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
